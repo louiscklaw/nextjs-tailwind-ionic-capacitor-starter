@@ -18,6 +18,7 @@ const Tabs = () => {
         <Route path="/tabs/settings" render={() => <Settings />} exact={true} />
         <Route path="/tabs" render={() => <Redirect to="/tabs/feed" />} exact={true} />
       </IonRouterOutlet>
+      
       <IonTabBar slot="bottom">
         <IonTabButton tab="tab1" href="/tabs/feed">
           <IonIcon icon={flash} />
