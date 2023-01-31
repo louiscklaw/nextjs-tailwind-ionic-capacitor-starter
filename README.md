@@ -1,3 +1,12 @@
+# screen capture
+
+### tailwind tryout
+![](/docs/all.png)
+
+### resources
+https://developer.android.com/distribute/marketing-tools/device-art-generator
+
+
 # Next.js + Tailwind CSS + Ionic Framework + Capacitor Mobile Starter
 
 ![Screenshot](./screenshot.png)
