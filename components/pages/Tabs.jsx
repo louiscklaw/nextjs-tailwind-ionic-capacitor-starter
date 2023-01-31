@@ -22,18 +22,17 @@ const Tabs = () => {
         <Route path="/tabs/settings" render={() => <Settings />} exact={true} />
         <Route path="/tabs" render={() => <Redirect to="/tabs/helloworld" />} exact={true} />
       </IonRouterOutlet>
-      
+
       <IonTabBar slot="bottom">
         <IonTabButton tab="tab_helloworld" href="/tabs/helloworld">
           <IonIcon icon={flash} />
           <IonLabel>Helloworld</IonLabel>
         </IonTabButton>
-        
+
         <IonTabButton tab="tab_TestElementPage" href="/tabs/test_element_page">
           <IonIcon icon={flash} />
           <IonLabel>TestElementPage</IonLabel>
         </IonTabButton>
-
 
         <IonTabButton tab="tab1" href="/tabs/feed">
           <IonIcon icon={flash} />

@@ -26,16 +26,10 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1.0, viewport-fit=cover"
-        ></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"></meta>
       </Head>
       <Component {...pageProps} />
-      <Script
-        type="module"
-        src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.esm.js"
-      ></Script>
+      <Script type="module" src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.esm.js"></Script>
       <Script nomodule="" src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.js"></Script>
     </>
   );

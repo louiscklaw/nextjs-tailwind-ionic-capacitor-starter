@@ -1,16 +1,7 @@
 import Store from '../../store';
 import * as selectors from '../../store/selectors';
 
-import {
-  IonPage,
-  IonHeader,
-  IonToolbar,
-  IonTitle,
-  IonContent,
-  IonItem,
-  IonLabel,
-  IonList,
-} from '@ionic/react';
+import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent, IonItem, IonLabel, IonList } from '@ionic/react';
 
 const ListEntry = ({ list, ...props }) => (
   <IonItem routerLink={`/tabs/lists/${list.id}`} className="list-entry">

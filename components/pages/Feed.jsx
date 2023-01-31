@@ -29,7 +29,11 @@ const FeedCard = ({ title, type, text, author, authorAvatar, image }) => (
       <p className="sm:text-sm text-s text-gray-500 mr-1 my-3 dark:text-gray-400">{text}</p>
       <div className="flex items-center space-x-4">
         <div className="w-10 h-10 relative">
-          <img src={authorAvatar} className="rounded-full object-cover min-w-full min-h-full max-w-full max-h-full" alt="" />
+          <img
+            src={authorAvatar}
+            className="rounded-full object-cover min-w-full min-h-full max-w-full max-h-full"
+            alt=""
+          />
         </div>
         <h3 className="text-gray-500 dark:text-gray-200 m-l-8 text-sm font-medium">{author}</h3>
       </div>

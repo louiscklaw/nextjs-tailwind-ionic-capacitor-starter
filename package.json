@@ -10,7 +10,9 @@
     "build": "next build",
     "start": "next start",
     "export": "next export",
-    "build:tailwind": "tailwind build styles/index.css -o styles/tailwind.css"
+    "build:tailwind": "tailwind build styles/index.css -o styles/tailwind.css",
+    "format": "npx prettier --loglevel warn --write \"./**/*.{js,jsx,tsx,ts}\"",
+    "nodemon_format": "npx nodemon -w ./src --ext '*' --exec 'npm run format'"
   },
   "dependencies": {
     "@capacitor/android": "^4.0.0",

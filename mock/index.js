@@ -16,8 +16,7 @@ export const homeItems = [
   {
     title: 'Arctic Adventures',
     type: 'Blog',
-    text:
-      'Last month we took a trek to the Arctic Circle. The isolation was just what we needed after...',
+    text: 'Last month we took a trek to the Arctic Circle. The isolation was just what we needed after...',
     author: 'Max Lynch',
     authorAvatar: '/img/max.jpg',
     image: images[1],
@@ -25,8 +24,7 @@ export const homeItems = [
   {
     title: 'Frolicking in the Faroe Islands',
     type: 'Blog',
-    text:
-      'The Faroe Islands are a North Atlantic archipelago located 320 kilometres (200 mi) north-northwest of Scotland...',
+    text: 'The Faroe Islands are a North Atlantic archipelago located 320 kilometres (200 mi) north-northwest of Scotland...',
     author: 'Max Lynch',
     authorAvatar: '/img/max.jpg',
     image: images[2],
@@ -50,12 +48,7 @@ export const lists = [
   {
     name: 'Hardware Store',
     id: 'hardware',
-    items: [
-      { name: 'Circular Saw' },
-      { name: 'Tack Cloth' },
-      { name: 'Drywall' },
-      { name: 'Router' },
-    ],
+    items: [{ name: 'Circular Saw' }, { name: 'Tack Cloth' }, { name: 'Drywall' }, { name: 'Router' }],
   },
   { name: 'Work', id: 'work', items: [{ name: 'TPS Report' }, { name: 'Set up email' }] },
   { name: 'Reminders', id: 'reminders' },
