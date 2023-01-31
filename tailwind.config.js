@@ -1,3 +1,5 @@
+
+
 module.exports = {
   purge: [],
   darkMode: 'media',
@@ -7,5 +9,7 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require("@tailwindcss/forms"),
+  ],
 };

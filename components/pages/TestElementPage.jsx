@@ -156,7 +156,7 @@ const Helloworld = () => {
             <IonText color="medium">
               <i>was</i>
             </IonText>{' '}
-            looking for a place called Lee Ho Fook's. Gonna get a{' '}
+            looking for a place called Lee Ho Fook s. Gonna get a{' '}
             <IonText color="danger">big dish of beef chow mein.</IonText>
           </p>
 
