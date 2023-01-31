@@ -5,6 +5,7 @@ import { cog, flash, list } from 'ionicons/icons';
 
 import Home from './Feed';
 import Helloworld from './Helloworld';
+import TestElementPage from './TestElementPage';
 import Lists from './Lists';
 import ListDetail from './ListDetail';
 import Settings from './Settings';
@@ -14,6 +15,7 @@ const Tabs = () => {
     <IonTabs>
       <IonRouterOutlet>
         <Route path="/tabs/helloworld" render={() => <Helloworld />} exact={true} />
+        <Route path="/tabs/test_element_page" render={() => <TestElementPage />} exact={true} />
         <Route path="/tabs/feed" render={() => <Home />} exact={true} />
         <Route path="/tabs/lists" render={() => <Lists />} exact={true} />
         <Route path="/tabs/lists/:listId" render={() => <ListDetail />} exact={true} />
@@ -26,6 +28,12 @@ const Tabs = () => {
           <IonIcon icon={flash} />
           <IonLabel>Helloworld</IonLabel>
         </IonTabButton>
+        
+        <IonTabButton tab="tab_TestElementPage" href="/tabs/test_element_page">
+          <IonIcon icon={flash} />
+          <IonLabel>TestElementPage</IonLabel>
+        </IonTabButton>
+
 
         <IonTabButton tab="tab1" href="/tabs/feed">
           <IonIcon icon={flash} />
